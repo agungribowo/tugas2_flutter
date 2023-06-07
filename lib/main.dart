@@ -20,7 +20,7 @@ class HomePage extends StatelessWidget {
           Icon(Icons.search),
         ],
        ),
-    body: FlatButton(
+    body: TextButton(
         onPressed: (){
           print("Ini adalah Button Niomic");
         },
